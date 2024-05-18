@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .app {
     display: flex;
     flex-direction: column;
@@ -8,10 +8,10 @@
     background-position: center; /* Розміщення фонового зображення по центру */
     background-size: auto 100%; /* Зробити зображення на всю ширину */
     background-repeat: no-repeat;
-    font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+//     font-family: "Dancing Script", cursive;
+//   font-optical-sizing: auto;
+//   font-weight: weight;
+//   font-style: normal;
   
     h1 {
       font-size: 31px;
@@ -35,4 +35,8 @@
         color: #fff;
       }
     }
+  }
+
+  p {
+    margin: 0;
   }
