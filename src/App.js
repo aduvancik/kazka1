@@ -139,7 +139,7 @@ function App() {
           </div>
           <div className="menu-item">
             <p>Маргарита</p>
-          <span className="sklad">(Сир, томатний соус, моцарела, базилік)</span>
+          {/* <span className="sklad">(Сир, томатний соус, моцарела, базилік)</span> */}
             <p></p>
             <p>160 грн</p>
           </div>
