@@ -2,7 +2,7 @@ import "../src/style/app.scss";
 
 function App() {
   return (
-    <div className="app">
+    <><div className="app">
       <h1>Меню</h1>
       <div className="menu-items">
         <div className="menu-item">
@@ -121,7 +121,103 @@ function App() {
           <p>120 грн / порція</p>
         </div>
       </div>
-    </div>
+    </div><div className="app">
+        <h1>Піца</h1>
+        <div className="menu-items">
+          <div className="menu-item title">
+            <p>Томатна основа</p>
+            <p></p>
+            <p>30 см</p>
+          </div>
+          <div className="menu-item">
+            <p>Маргарита</p>
+          <span className="sklad">(Сир, томатний соус, моцарела, базилік)</span>
+            <p></p>
+            <p>160 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Cалямі</p>
+            <p></p>
+            <p>180 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Вегетаріана</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Тоскана</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Афіна</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Неаполітана</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Провинціале</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>М'ясна</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Марінара</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item title">
+            <p>Вершкова основа</p>
+            <p></p>
+            <p>30 см</p>
+          </div>
+          <div className="menu-item">
+            <p>Капрічоза</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Гавайська</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Палерма</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Верона</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Флоренція</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>Венеціала</p>
+            <p></p>
+            <p>200 грн</p>
+          </div>
+          <div className="menu-item">
+            <p>4 сири</p>
+            <p></p>
+            <p>240 грн</p>
+          </div>
+      
+        </div>
+      </div></>
   );
 }
 
