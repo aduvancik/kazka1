@@ -1,4 +1,8 @@
 
+body {
+    margin: 0;
+}
+
 .app {
     display: flex;
     flex-direction: column;
@@ -12,6 +16,15 @@
     h1 {
       font-size: 31px;
       color: #fff;
+
+      span {
+        font-size: 13px;
+        color: #000;
+      }
+    }
+
+    .sss {
+        color: white;
     }
   
     .menu-items {
@@ -22,13 +35,14 @@
   
       .menu-item {
         display: flex;
-        padding: 10px;
+        padding: 2px;
         justify-content: space-between; // Вирівнюємо елементи у рядку
         border-bottom: 2px solid black; // Додаємо розділювальну лінію
+        font-size: 16px;
       }
 
       p {
-        font-size: 20px;
+        // font-size: 20px;
         color: #fff;
       }
     }

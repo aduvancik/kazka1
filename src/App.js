@@ -1,9 +1,17 @@
 import "../src/style/app.scss";
 
 function App() {
+
+  const scrollToPizzaSection = () => {
+    const pizzaSection = document.getElementById("pizza");
+    pizzaSection.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
-    <><div className="app">
-      <h1>Меню</h1>
+      <>
+    <div className="app">
+    <span className="sss" onClick={scrollToPizzaSection}></span>
+      <h1 onClick={scrollToPizzaSection}>Меню</h1> 
       <div className="menu-items">
         <div className="menu-item">
           <p>Цибулеві кільця</p>
@@ -122,7 +130,7 @@ function App() {
         </div>
       </div>
     </div><div className="app">
-        <h1>Піца</h1>
+        <h1 id="pizza">Піца</h1>
         <div className="menu-items">
           <div className="menu-item title">
             <p>Томатна основа</p>
