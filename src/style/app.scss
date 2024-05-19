@@ -1,6 +1,7 @@
 
 body {
     margin: 0;
+    width: 100%;
 }
 
 .app {
@@ -32,6 +33,7 @@ body {
       grid-template-columns: repeat(1, 1fr); // Три колонки в рядку
       gap: 10px; // Відступ між елементами
       margin-bottom: 50px;
+      width: 100%;
   
       .menu-item {
         display: flex;
@@ -39,6 +41,8 @@ body {
         justify-content: space-between; // Вирівнюємо елементи у рядку
         border-bottom: 2px solid black; // Додаємо розділювальну лінію
         font-size: 16px;
+        max-width: 100%;
+        gap: 5px;
       }
 
       p {
