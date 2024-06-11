@@ -226,7 +226,7 @@ function App() {
       
         </div>
       </div>
-      {/* <div className="app">
+       <div className="app">
     <span className="sss" onClick={scrollToPizzaSection}></span>
       <h1 onClick={scrollToPizzaSection}>Пиво</h1> 
       <div className="menu-items">
@@ -242,11 +242,31 @@ function App() {
         </div>
         <div className="menu-item">
           <p>Микулин Медове</p>
-          {/* <p></p> */}
-          {/* <p>60 грн / л</p>
+           <p></p> 
+           <p>60 грн / л</p>
         </div>
         <div className="menu-item">
-          <p>Кров москаля</p>
+          <p>Микулин Бланш</p>
+           <p></p> 
+           <p>70 грн / л</p>
+        </div>
+        <div className="menu-item">
+          <p>Крафтове</p>
+           <p></p> 
+           <p>70 грн / л</p>
+        </div>
+        <div className="menu-item">
+          <p>Вайсбург темний</p>
+           <p></p> 
+           <p>60 грн / л</p>
+        </div>
+        <div className="menu-item">
+          <p>Душа пивовара</p>
+           <p></p> 
+           <p>60 грн / л</p>
+        </div>
+        <div className="menu-item">
+          <p>Сидр кров москаля</p>
           <p></p>
           <p>60 грн / л</p>
         </div>
@@ -259,10 +279,10 @@ function App() {
           <p>Ель Медуза</p>
           <p></p>
           <p>60 грн / л</p>
-        </div> */}
+        </div> 
        
-      {/* </div> */}
-    {/* </div>  */}
+      </div>
+     </div>  
       </>
   );
 }
