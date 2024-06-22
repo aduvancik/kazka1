@@ -249,12 +249,12 @@ export const listProduct = {
         //     number: "1 шт",
         //     img: "8.png"
         // },
-        // {
-        //     title: "Провінціале",
-        //     price: 200,
-        //     number: "1 шт",
-        //     img: "9.png"
-        // },
+        {
+            title: "Провінціале",
+            price: 200,
+            number: "1 шт",
+            img: "9.png"
+        },
         {
             title: "Марінара",
             price: 200,
