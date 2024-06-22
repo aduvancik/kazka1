@@ -1,0 +1,115 @@
+.basket {
+    &__listProducts {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+        position: relative;
+
+        border: 3px #F4C70F solid;
+        border-radius: 20px;
+        padding: 16px;
+
+        img {
+            width: 50%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    &__title-price {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    &__price {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #F4C70F;
+    }
+
+    &__number {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        // text-align: center;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        height: 30px;
+        padding: 8px;
+        font-size: 20px;
+
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 10px;
+
+        svg {
+            font-size: 25px;
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &__cross {
+        width: 27px;
+        height: 27px;
+
+        background-color: #F4C70F;
+        border: none;
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: absolute;
+        top: -8px;
+        right: -8px;
+    }
+
+    &__info {
+        border: 3px solid #F4C70F;
+        border-radius: 20px;
+
+        padding: 10px;
+        margin-top: 30px;
+
+        font-size: 20px;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    &__sumPrice {
+        font-size: 15px;
+        
+        span {
+            margin-left: 5px;
+        }
+    }
+}
