@@ -226,6 +226,12 @@ export const listProduct = {
             img: "4.png"
         },
         {
+            title: "Провінціале",
+            price: 200,
+            number: "1 шт",
+            img: "4.png"
+        },
+        {
             title: "М’ясна",
             price: 200,
             number: "1 шт",
@@ -250,7 +256,7 @@ export const listProduct = {
             img: "8.png"
         },
         {
-            title: "Неаполітана",
+            title: "Провінціале",
             price: 200,
             number: "1 шт",
             img: "9.png"
