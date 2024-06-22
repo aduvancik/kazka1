@@ -220,7 +220,7 @@ export const listProduct = {
             img: "3.png"
         },
         {
-            title: "Провінціале",
+            title: "Неаполітана",
             price: 200,
             number: "1 шт",
             img: "4.png"
@@ -243,18 +243,18 @@ export const listProduct = {
             number: "1 шт",
             img: "7.png"
         },
-        {
-            title: "Неаполітана",
-            price: 200,
-            number: "1 шт",
-            img: "8.png"
-        },
-        {
-            title: "Провінціале",
-            price: 200,
-            number: "1 шт",
-            img: "9.png"
-        },
+        // {
+        //     title: "Неаполітана",
+        //     price: 200,
+        //     number: "1 шт",
+        //     img: "8.png"
+        // },
+        // {
+        //     title: "Провінціале",
+        //     price: 200,
+        //     number: "1 шт",
+        //     img: "9.png"
+        // },
         {
             title: "Марінара",
             price: 200,
@@ -285,25 +285,25 @@ export const listProduct = {
             title: "Верона",
             price: 200,
             number: "1 шт",
-            img: "4.png"
+            img: "5.png"
         },
         {
             title: "Флоренція",
             price: 200,
             number: "1 шт",
-            img: "5.png"
+            img: "6.png"
         },
         {
             title: "Венеціала",
             price: 180,
             number: "1 шт",
-            img: "6.png"
+            img: "7.png"
         },
         {
             title: "4 сири",
             price: 200,
             number: "1 шт",
-            img: "7.png"
+            img: "8.png"
         },
     ],
     appetizer : [
