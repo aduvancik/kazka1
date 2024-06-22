@@ -220,12 +220,6 @@ export const listProduct = {
             img: "3.png"
         },
         {
-            title: "Неаполітана",
-            price: 200,
-            number: "1 шт",
-            img: "4.png"
-        },
-        {
             title: "Провінціале",
             price: 200,
             number: "1 шт",
