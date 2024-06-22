@@ -8,8 +8,7 @@
 
 <h2>Project Screenshots:</h2>
 
-![screenshot](https://github.com/aduvancik/aduvancik/blob/main/Знімок%20екрана%202024-06-14%20о%2013.32.44.png)
-
+![screenshot](https://github.com/aduvancik/aduvancik/blob/main/Знімок%20екрана%202024-06-22%20о%2014.15.03.png)
 
 <h2>🛠️ Installation Steps:</h2>
 
