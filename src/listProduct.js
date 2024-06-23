@@ -339,8 +339,8 @@ export const listProduct = {
         },
         {
             title: "М’ясна нарізка",
-            price: 250,
-            number: "450 г",
+            price: 300,
+            number: "350 г",
             img: "6.png"
         },
         {
@@ -351,8 +351,8 @@ export const listProduct = {
         },
         {
             title: "Сирна нарізка",
-            price: 250,
-            number: "350 г",
+            price: 450,
+            number: "450 г",
             img: "7.png"
         },
     ],
