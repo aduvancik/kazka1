@@ -317,7 +317,7 @@ export const listProduct = {
             title: "Сирні палички",
             price: 100,
             number: "5 шт",
-            img: "5.png"
+            img: "3.png"
         },
         {
             title: "Нагетси",
@@ -336,6 +336,24 @@ export const listProduct = {
             price: 65,
             number: "200 г",
             img: "5.png"
+        },
+        {
+            title: "М’ясна нарізка",
+            price: 250,
+            number: "450 г",
+            img: "6.png"
+        },
+        {
+            title: "Овочева нарізка",
+            price: 90,
+            number: "300 г",
+            img: "8.png"
+        },
+        {
+            title: "Сирна нарізка",
+            price: 250,
+            number: "350 г",
+            img: "7.png"
         },
     ],
 }
