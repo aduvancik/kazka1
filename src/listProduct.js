@@ -54,61 +54,61 @@ export const listProduct = {
     beer : [
         {
             title: "Микулин 900",
-            price: 60,
+            price: 80,
             number: "1 л",
             img: "900.png"
         },
         {
             title: "Вайсбург темний",
-            price: 60,
+            price: 80,
             number: "1 л",
             img: "black.png"
         },
         {
             title: "Тернове поле",
-            price: 60,
+            price: 80,
             number: "1 л",
             img: "ternove.png"
         },
         {
             title: "Душа пивовара",
-            price: 60,
+            price: 80,
             number: "1 л",
             img: "sould.png"
         },
         {
             title: "Микулин Медове",
-            price: 60,
+            price: 80,
             number: "1 л",
             img: "honey.png"
         },
         {
             title: "Сидр “Кров москаля”",
-            price: 60,
+            price: 80,
             number: "1 л",
             img: "blood.png"
         },
         {
             title: "Микулин Бланш",
-            price: 70,
+            price: 100,
             number: "1 л",
             img: "blanche.png"
         },
         {
             title: "Сидр Грейпфрут",
-            price: 60,
+            price: 80,
             number: "1 л",
             img: "grapefruit.png"
         },
         {
             title: "Крафтове",
-            price: 70,
+            price: 100,
             number: "1 л",
             img: "craft.png"
         },
         {
             title: "Ель Медуза",
-            price: 60,
+            price: 80,
             number: "1 л",
             img: "jellyfish.png"
         },
@@ -354,6 +354,30 @@ export const listProduct = {
             price: 450,
             number: "450 г",
             img: "7.png"
+        },
+        {
+            title: "Ковбаски гриль",
+            price: 600,
+            number: "Кг",
+            img: "9.png"
+        },
+        {
+            title: "Ребра медові",
+            price: 600,
+            number: "Кг",
+            img: "11.png"
+        },
+        {
+            title: "Шашлик",
+            price: 800,
+            number: "Кг",
+            img: "12.png"
+        },
+        {
+            title: "Картопляні крокети",
+            price: 80,
+            number: "Порція",
+            img: "10.png"
         },
     ],
 }
