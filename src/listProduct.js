@@ -301,7 +301,7 @@ export const listProduct = {
         },
         {
             title: "4 сири",
-            price: 200,
+            price: 240,
             number: "1 шт",
             img: "8.png"
         },
