@@ -13,6 +13,7 @@ import Layout from "./components/Layout";
 import LayoutHome from "./components/LayoutHome";
 import Rules from "./pages/Rules";
 import Services from "./pages/Services";
+import Admin from "./pages/Admin";
 
 export const router = createBrowserRouter([
     {
@@ -72,6 +73,10 @@ export const router = createBrowserRouter([
                     {
                         path: "/Наші-правила",
                         element: <Rules />
+                    },
+                    {
+                        path: "/адмін",
+                        element: <Admin />
                     },
                     ]
             },
