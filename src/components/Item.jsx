@@ -5,7 +5,6 @@ import { BasketContext } from '../BasketContext';
 export default function Item({ item, section }) {
     const { addBasket, basket, deleteProduct } = useContext(BasketContext);
     item.section = section;
-    console.log(basket);
     const isInBasket = basket.some(basketItem => basketItem.product.title === item.title);
 
     return (

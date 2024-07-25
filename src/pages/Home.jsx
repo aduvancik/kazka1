@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+//react icons
+import { FaHome } from "react-icons/fa";
+import { RiInformationFill } from "react-icons/ri";
+
 //style
 import "../style/home.scss";
 
@@ -392,6 +396,18 @@ export default function Home() {
                         <path d="M68.571 24.8827C68.571 26.7933 68.1889 32.3342 66.6604 39.2125" stroke="#F4C70F" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                     <h1 className='title'>Соуси</h1>
+                </div>
+            </Link>
+            <Link to="/Додаткові-послуги">
+                <div className='home__item'>
+                    <FaHome style={{ color: "#F4C70F", fontSize: "70px" }} />
+                    <h1 className='title'>Бронь</h1>
+                </div>
+            </Link>
+            <Link to="/Наші-правила">
+                <div className='home__item'>
+                    <RiInformationFill style={{ color: "#F4C70F", fontSize: "70px" }}/>
+                    <h1 className='title'>Правила</h1>
                 </div>
             </Link>
         </div>

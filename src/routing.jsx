@@ -11,6 +11,8 @@ import Salads from "./pages/Salads";
 import Sauces from "./pages/Sauces";
 import Layout from "./components/Layout";
 import LayoutHome from "./components/LayoutHome";
+import Rules from "./pages/Rules";
+import Services from "./pages/Services";
 
 export const router = createBrowserRouter([
     {
@@ -62,6 +64,14 @@ export const router = createBrowserRouter([
                     {
                         path: "/Соуси",
                         element: <Sauces />
+                    },
+                    {
+                        path: "/Додаткові-послуги",
+                        element: <Services />
+                    },
+                    {
+                        path: "/Наші-правила",
+                        element: <Rules />
                     },
                     ]
             },
