@@ -35,6 +35,39 @@
     height: 150px; /* Adjust as needed */
 }
 
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    max-width: 620px; /* Adjust based on your design */
+    margin: 30px auto 0 auto;
+}
+
+.table-wrapper {
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.table {
+    width: 100%;
+    height: 50px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.table-small {
+    height: 50px; /* Adjust as needed */
+}
+
+.table-large {
+    height: 100px; /* Adjust as needed */
+}
+
 .edit-container {
     margin-top: 10px;
 }
