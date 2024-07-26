@@ -105,7 +105,7 @@ export default function ReservAdmin({ isAdmin }) {
 
     // Define the order of gazebos and tables
     const gazeboOrder = [5, 4, 6, 3, 7, 2, 8, 1];
-    const tableOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]; // Updated to accommodate 14 tables
+    const tableOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; // Updated to accommodate 14 tables
 
     // Define small tables
     const smallTables = [0, 1, 2, 3, 8, 9, 10, 11, 12]; // Adjusted to make tables 5, 6, 7, and 8 large
@@ -184,7 +184,7 @@ export default function ReservAdmin({ isAdmin }) {
             {isAdmin && (
                 <button onClick={saveReservations}>Зберегти бронювання</button>
             )}
-            
+
         </div>
     );
 }
