@@ -184,6 +184,7 @@ export default function ReservAdmin({ isAdmin }) {
             {isAdmin && (
                 <button onClick={saveReservations}>Зберегти бронювання</button>
             )}
+            
         </div>
     );
 }
