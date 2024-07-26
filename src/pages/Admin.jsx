@@ -13,7 +13,7 @@ export default function Admin() {
     };
 
     const handleLogin = () => {
-        if (password === '/100') {
+        if (password === '0000') {
             setIsAdmin(true);
             setViewMode('admin');
         } else {
