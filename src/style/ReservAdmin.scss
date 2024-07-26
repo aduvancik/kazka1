@@ -1,9 +1,67 @@
 .reservation {
     padding: 20px;
 
+    button {
+        margin: 30px auto;
+        display: block;
+    }
     .date {
         display: block;
         margin: 0 auto 30px auto;
+    }
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* First row with 3 columns */
+    gap: 10px;
+    max-width: 930px;
+    /* Adjust based on your design */
+    margin: 40px auto;
+
+    /* Full-width table on the 4th item */
+    &>.table-wrapper:nth-child(4) {
+        grid-column: span 1;
+        /* Span the full width */
+    }
+
+    /* Single table in its own row */
+    &>.table-wrapper:nth-child(5) {
+        grid-column: span 1;
+        grid-column: 3;
+        /* Span the full width */
+    }
+
+    /* Following tables in a 2-column layout */
+    &>.table-wrapper:nth-child(6) {
+        grid-column: 1;
+    }
+
+    &>.table-wrapper:nth-child(7) {
+        grid-column: 3;
+    }
+
+    &>.table-wrapper:nth-child(8) {
+        grid-column: 1;
+    }
+
+    &>.table-wrapper:nth-child(9) {
+        grid-column: 3;
+    }
+
+    &>.table-wrapper:nth-child(10) {
+        grid-column: 1;
+    }
+
+    &>.table-wrapper:nth-child(11) {
+        grid-column: 3;
+    }
+    &>.table-wrapper:nth-child(12) {
+        grid-column: 3;
+    }
+    &>.table-wrapper:nth-child(13) {
+        grid-column: 3;
     }
 }
 
@@ -11,46 +69,22 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    max-width: 620px; /* Adjust based on your design */
+    max-width: 620px;
+    /* Adjust based on your design */
     margin: 0 auto;
 }
 
-.gazebo-wrapper {
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
-}
-
-.gazebo {
-    width: 100%;
-    height: 100px; /* Adjust as needed */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    text-align: center;
-    cursor: pointer;
-}
-
-.gazebo-large {
-    height: 150px; /* Adjust as needed */
-}
-
-.table-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, auto);
-    gap: 10px;
-    max-width: 620px; /* Adjust based on your design */
-    margin: 30px auto 0 auto;
-}
-
+.gazebo-wrapper,
 .table-wrapper {
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
 }
 
+.gazebo,
 .table {
     width: 100%;
-    height: 50px; /* Adjust as needed */
+    height: 100px;
+    /* Adjust as needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,12 +94,10 @@
     cursor: pointer;
 }
 
-.table-small {
-    height: 50px; /* Adjust as needed */
-}
-
+.gazebo-large,
 .table-large {
-    height: 100px; /* Adjust as needed */
+    // height: 150px;
+    /* Adjust as needed */
 }
 
 .edit-container {
