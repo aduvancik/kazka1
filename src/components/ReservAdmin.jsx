@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { db } from '../firebase';
 import { doc, setDoc, getDoc } from 'firebase/firestore';
 import '../style/ReservAdmin.scss'; // Import your CSS file
@@ -26,11 +26,7 @@ export default function ReservAdmin({ isAdmin }) {
     const [editValue, setEditValue] = useState('');
     const [editType, setEditType] = useState(''); // 'gazebo' or 'table'
 
-    useEffect(() => {
-        fetchReservations();
-    }, [selectedDate, fetchReservations]);
-
-    const fetchReservations = async () => {
+    const fetchReservations = useCallback(async () => {
         setLoading(true);
         try {
             const docRef = doc(db, 'reservations', selectedDate);
@@ -50,7 +46,11 @@ export default function ReservAdmin({ isAdmin }) {
             console.error('Помилка при отриманні бронювань:', error);
         }
         setLoading(false);
-    };
+    }, [selectedDate]);
+
+    useEffect(() => {
+        fetchReservations();
+    }, [fetchReservations, selectedDate]);
 
     const handleInputChange = (type, index, value) => {
         const newReservations = { ...reservations };
@@ -105,7 +105,7 @@ export default function ReservAdmin({ isAdmin }) {
 
     // Define the order of gazebos and tables
     const gazeboOrder = [5, 4, 6, 3, 7, 2, 8, 1];
-    const tableOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; // Updated to accommodate 14 tables
+    const tableOrder = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]; // Updated to accommodate 14 tables
 
     // Define small tables
     const smallTables = [0, 1, 2, 3, 8, 9, 10, 11, 12]; // Adjusted to make tables 5, 6, 7, and 8 large
