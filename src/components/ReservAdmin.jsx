@@ -28,7 +28,7 @@ export default function ReservAdmin({ isAdmin }) {
 
     useEffect(() => {
         fetchReservations();
-    }, [selectedDate]);
+    }, [selectedDate, fetchReservations]);
 
     const fetchReservations = async () => {
         setLoading(true);

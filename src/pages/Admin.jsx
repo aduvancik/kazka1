@@ -30,7 +30,7 @@ export default function Admin() {
             {viewMode === '' && (
                 <div>
                     <div>
-                        {/* <button onClick={handleViewReservations}>Переглянути бронювання</button> */}
+                        <button onClick={handleViewReservations}>Переглянути бронювання</button>
                     </div>
                     <h2>Введіть пароль</h2>
                     <input
