@@ -37,6 +37,14 @@ export const listProduct = {
             img: "chili.png"
         },
     ],
+    milk : [
+        {
+            title: "Молочний коктель в асортименті",
+            price: 100,
+            number: "Порція",
+            img: "milk.png"
+        },  
+    ],
     salads : [
         {
             title: "Салат літній",

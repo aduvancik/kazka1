@@ -398,6 +398,25 @@ export default function Home() {
                     <h1 className='title'>Соуси</h1>
                 </div>
             </Link>
+            <Link to="/МолочніКоктелі">
+                <div className='home__item'>
+                    <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 25C20 24 21 23 22 23H56C57 23 58 24 58 25L54 72H24L20 25Z" stroke="#F4C70F" stroke-width="2" stroke-linejoin="round" fill="none" />
+
+                        <path d="M23 30H55L52 68H26L23 30Z" fill="#F4C70F" opacity="0.3" />
+
+                        <path d="M22 23C23.5 19 28 18 31 20C33 17 38 18 40 21C42.5 18 47 18 49 20C52 17 56.5 18 57 23H22Z" stroke="#F4C70F" stroke-width="2" fill="white" />
+
+                        <path d="M39 6L42 23" stroke="#F4C70F" stroke-width="2" stroke-linecap="round" />
+                        <path d="M39 6C39 5 40 4 41 4H44C45 4 46 5 46 6V8C46 9 45 10 44 10H41C40 10 39 9 39 8V6Z" stroke="#F4C70F" stroke-width="2" fill="none" />
+
+                        <circle cx="34" cy="40" r="1.5" fill="#F4C70F" />
+                        <circle cx="44" cy="45" r="1.5" fill="#F4C70F" />
+                        <circle cx="38" cy="50" r="1.5" fill="#F4C70F" />
+                    </svg>
+                    <h1 className='title'>Молочні коктелі</h1>
+                </div>
+            </Link>
             <Link to="/Додаткові-послуги">
                 <div className='home__item'>
                     <FaHome style={{ color: "#F4C70F", fontSize: "70px" }} />
@@ -406,7 +425,7 @@ export default function Home() {
             </Link>
             <Link to="/Наші-правила">
                 <div className='home__item'>
-                    <RiInformationFill style={{ color: "#F4C70F", fontSize: "70px" }}/>
+                    <RiInformationFill style={{ color: "#F4C70F", fontSize: "70px" }} />
                     <h1 className='title'>Правила</h1>
                 </div>
             </Link>

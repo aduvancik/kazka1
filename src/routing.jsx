@@ -14,6 +14,8 @@ import LayoutHome from "./components/LayoutHome";
 import Rules from "./pages/Rules";
 import Services from "./pages/Services";
 import Admin from "./pages/Admin";
+import Milk from "./pages/Milk";
+
 
 export const router = createBrowserRouter([
     {
@@ -65,6 +67,10 @@ export const router = createBrowserRouter([
                     {
                         path: "/Соуси",
                         element: <Sauces />
+                    },
+                    {
+                        path: "/МолочніКоктелі",
+                        element: <Milk />
                     },
                     {
                         path: "/Додаткові-послуги",
